@@ -1,6 +1,5 @@
-.App .container {
+body {
   background-color: lavender;
-  padding: 20px 10px;
 }
 .App header {
   margin: 30px 0;
