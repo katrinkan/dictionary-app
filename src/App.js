@@ -9,7 +9,7 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="magic" />
         </main>
         <footer className="App-footer">
           This project was coded by Katrin Kanape and is{" "}
