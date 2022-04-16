@@ -5,8 +5,16 @@
 .Synonyms li {
   display: inline-block;
   list-style: none;
-  padding-right: 20px;
-  padding-bottom: 20px;
-
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 20px;
+  margin-right: 10px;
   font-size: 14px;
+  border: 1px solid #34342e;
+  font-weight: bold;
+  border-radius: 20px;
+  color: #34342e;
+}
+.Synonyms li:hover {
+  background-color: #e1e1e1;
+  color: #34342e;
 }
