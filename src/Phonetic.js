@@ -1,13 +1,25 @@
 import React from "react";
+import ReactAudioPlayer from "react-audio-player";
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
-  return (
-    <div className="Phonetic">
-      <a href={props.phonetic.audio} target="_blank" rel="noreferrer noopener">
-        Listen
-      </a>
-      <span className="text">{props.phonetic.text}</span>
-    </div>
-  );
+  if (props.phonetic && props.phonetic.audio) {
+    return (
+      <div className="Phonetic">
+        <div className="d-flex flex-row">
+          <div className="audioPlayer">
+            <ReactAudioPlayer
+              src={props.phonetic.audio}
+              autoPlay={false}
+              controls
+            />
+          </div>
+
+          <div className="text">{props.phonetic.text}</div>
+        </div>
+      </div>
+    );
+  } else {
+    return null;
+  }
 }
