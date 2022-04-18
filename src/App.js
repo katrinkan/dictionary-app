@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         <main>
-          <Dictionary defaultKeyword="magic" />
+          <Dictionary defaultKeyword="serendipity" />
         </main>
       </div>
       <footer className="App-footer">
