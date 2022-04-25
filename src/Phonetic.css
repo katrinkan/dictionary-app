@@ -9,3 +9,16 @@
   font-size: 24px;
   padding-top: 12px;
 }
+@media (max-width: 912px) {
+  .Phonetic audio {
+    max-width: 80%;
+  }
+  .Phonetic .text {
+    font-size: 16px;
+    padding-left: 2px;
+    padding-top: 16px;
+  }
+  .Phonetic .audioPlayer {
+    max-width: 190px;
+  }
+}
